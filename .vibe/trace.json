@@ -1,0 +1,43 @@
+{
+  "version": "0.1",
+  "project": "chinese-stele-shiwen",
+  "generated_at": "2024-12-01",
+  "chains": [
+    {
+      "urd": "URD-REQ-001",
+      "add_fr": "ADD-FR-001",
+      "add_dp": "ADD-DP-001",
+      "mdd_mod": "MDD-MOD-001",
+      "tdd_test": "TDD-TEST-001",
+      "rmd_task": "RMD-TASK-002",
+      "okf_page": "okf/requirements/schema.md"
+    },
+    {
+      "urd": "URD-REQ-002",
+      "add_fr": "ADD-FR-002",
+      "add_dp": ["ADD-DP-002", "ADD-DP-003"],
+      "mdd_mod": "MDD-MOD-002",
+      "tdd_test": "TDD-TEST-004",
+      "rmd_task": "RMD-TASK-002",
+      "okf_page": "okf/decisions/dynasty-classification.md"
+    },
+    {
+      "urd": "URD-REQ-003",
+      "add_fr": "ADD-FR-004",
+      "add_dp": "ADD-DP-004",
+      "mdd_mod": "MDD-MOD-003",
+      "tdd_test": "TDD-TEST-007",
+      "rmd_task": "RMD-TASK-004",
+      "okf_page": "okf/contracts/source-attribution.md"
+    },
+    {
+      "urd": "URD-REQ-004",
+      "add_fr": "ADD-FR-005",
+      "add_dp": "ADD-DP-005",
+      "mdd_mod": "MDD-MOD-006",
+      "tdd_test": "TDD-TEST-003",
+      "rmd_task": "RMD-TASK-004",
+      "okf_page": "okf/decisions/contribution-workflow.md"
+    }
+  ]
+}
