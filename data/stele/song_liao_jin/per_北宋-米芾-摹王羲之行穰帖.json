@@ -1,0 +1,18 @@
+{
+  "name": "摹王羲之行穰帖",
+  "dynasty": "宋遼金",
+  "author": "米芾",
+  "year": -1,
+  "calligraphy_type": "其他",
+  "source": "Marvis per_stele 数据集 (id=414)",
+  "editor": "marvis-import-v2",
+  "release_date": "2024-12-01",
+  "description": "类型：墨迹（临摹）。原始朝代：北宋。作者：米芾。米芾临古帖。",
+  "content": "此为米芾临摹王羲之《行穰帖》之作。参看王羲之《行穰帖》原文。",
+  "original_text": "足下行穰九人还示，应决不？大都当任。",
+  "translation": "此为米芾临摹王羲之《行穰帖》之作。参看王羲之《行穰帖》原文。",
+  "note": "米芾临古帖。",
+  "raw_type": "墨迹（临摹）",
+  "raw_dynasty": "北宋",
+  "marvis_id": 414
+}

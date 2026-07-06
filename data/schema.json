@@ -72,9 +72,17 @@
       "type": "string",
       "description": "原始数据类型（碑刻/墓志/墨迹/金文等）"
     },
+    "raw_dynasty": {
+      "type": "string",
+      "description": "原始朝代描述字符串（未映射前的值）"
+    },
     "raw_date": {
       "type": "string",
       "description": "原始年代描述字符串"
+    },
+    "marvis_id": {
+      "type": "integer",
+      "description": "Marvis 数据集中的原始 ID"
     }
   },
   "additionalProperties": false

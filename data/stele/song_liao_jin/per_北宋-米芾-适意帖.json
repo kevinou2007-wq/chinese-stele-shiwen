@@ -1,0 +1,18 @@
+{
+  "name": "适意帖",
+  "dynasty": "宋遼金",
+  "author": "米芾",
+  "year": -1,
+  "calligraphy_type": "其他",
+  "source": "Marvis per_stele 数据集 (id=480)",
+  "editor": "marvis-import-v2",
+  "release_date": "2024-12-01",
+  "description": "类型：墨迹（尺牍）。原始朝代：北宋。作者：米芾。翰牍九帖之四。此帖体现了米芾追求适意的创作理念。",
+  "content": "[真实性存疑] 米芾存世墨迹无此帖名，疑为AI编造。original字段已清空，需权威来源核实后方可恢复。",
+  "original_text": "",
+  "translation": "[真实性存疑] 米芾存世墨迹无此帖名，疑为AI编造。original字段已清空，需权威来源核实后方可恢复。",
+  "note": "翰牍九帖之四。此帖体现了米芾追求适意的创作理念。",
+  "raw_type": "墨迹（尺牍）",
+  "raw_dynasty": "北宋",
+  "marvis_id": 480
+}

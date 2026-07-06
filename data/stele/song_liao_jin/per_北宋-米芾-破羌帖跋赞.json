@@ -1,0 +1,18 @@
+{
+  "name": "破羌帖跋赞",
+  "dynasty": "宋遼金",
+  "author": "米芾",
+  "year": -1,
+  "calligraphy_type": "其他",
+  "source": "Marvis per_stele 数据集 (id=431)",
+  "editor": "marvis-import-v2",
+  "release_date": "2024-12-01",
+  "description": "类型：墨迹（题跋）。原始朝代：北宋。作者：米芾。米芾重要题跋。龙跳天门虎卧凤阙八字成为千古名言。",
+  "content": "[真实性待考] 米芾为《破羌帖》所作题跋，搜索结果释文残缺矛盾，待考。original字段已清空，需权威来源核实后方可恢复。",
+  "original_text": "",
+  "translation": "[真实性待考] 米芾为《破羌帖》所作题跋，搜索结果释文残缺矛盾，待考。original字段已清空，需权威来源核实后方可恢复。",
+  "note": "米芾重要题跋。龙跳天门虎卧凤阙八字成为千古名言。",
+  "raw_type": "墨迹（题跋）",
+  "raw_dynasty": "北宋",
+  "marvis_id": 431
+}

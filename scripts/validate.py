@@ -38,8 +38,11 @@ DIR_TO_DYNASTY = {
 
 VALID_CALLIGRAPHY_TYPES = {"篆書", "隶書", "楷書", "行書", "草書", "其他"}
 
-# 文件名允许中文（碑名）+ 数字前缀，如 stele_001_毛公鼎.json
-SLUG_RE = re.compile(r"^stele_\d+_[\w\u4e00-\u9fff\-]+\.json$")
+# 文件名允许：stele_NNN_碑名.json 或 per_朝代-作者-碑名.json
+# 允许中文、ASCII、数字、下划线、短横线、括号等
+SLUG_RE = re.compile(
+    r"^((stele_\d+_[\w\u4e00-\u9fff（）()\-]+)|(per_[\w\u4e00-\u9fff（）()\-,，、]+))\.json$"
+)
 
 
 def load_schema(root: Path) -> dict:

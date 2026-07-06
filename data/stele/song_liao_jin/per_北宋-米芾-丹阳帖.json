@@ -1,0 +1,18 @@
+{
+  "name": "丹阳帖",
+  "dynasty": "宋遼金",
+  "author": "米芾",
+  "year": -1,
+  "calligraphy_type": "其他",
+  "source": "Marvis per_stele 数据集 (id=387)",
+  "editor": "marvis-import-v2",
+  "release_date": "2024-12-01",
+  "description": "类型：墨迹（尺牍）。原始朝代：北宋。作者：米芾。翰牍九帖之六，台北故宫博物院藏。",
+  "content": "米芾致友人短信：丹阳米价很贵，请你用船运一百斛米来，换我的玉笔架。赶早写信通知你，怕被别人抢先了。",
+  "original_text": "丹阳米甚贵。请一航载米百斛来，换玉笔架，如何早一报，恐他人先。芾顿首。",
+  "translation": "米芾致友人短信：丹阳米价很贵，请你用船运一百斛米来，换我的玉笔架。赶早写信通知你，怕被别人抢先了。",
+  "note": "翰牍九帖之六，台北故宫博物院藏。",
+  "raw_type": "墨迹（尺牍）",
+  "raw_dynasty": "北宋",
+  "marvis_id": 387
+}

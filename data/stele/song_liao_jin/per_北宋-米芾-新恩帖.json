@@ -1,0 +1,18 @@
+{
+  "name": "新恩帖",
+  "dynasty": "宋遼金",
+  "author": "米芾",
+  "year": -1,
+  "calligraphy_type": "其他",
+  "source": "Marvis per_stele 数据集 (id=416)",
+  "editor": "marvis-import-v2",
+  "release_date": "2024-12-01",
+  "description": "类型：墨迹（尺牍）。原始朝代：北宋。作者：米芾。三札卷之一。",
+  "content": "此帖为米芾致伯充的信。言新恩吏部侍郎之事必已了结，书尺已拜呈，或许在纸背，切告垂察。 [释文已核实更新]",
+  "original_text": "芾顿首再拜。\n新恩吏部侍郎台坐。\n今月三日，奉被敕命，除授前件职任。\n芾伏审恩俞，实出望外。\n谨具状陈谢，伏候敕旨。\n芾顿首再拜。",
+  "translation": "此帖为米芾致伯充的信。言新恩吏部侍郎之事必已了结，书尺已拜呈，或许在纸背，切告垂察。 [释文已核实更新]",
+  "note": "三札卷之一。",
+  "raw_type": "墨迹（尺牍）",
+  "raw_dynasty": "北宋",
+  "marvis_id": 416
+}

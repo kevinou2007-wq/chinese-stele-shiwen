@@ -1,0 +1,18 @@
+{
+  "name": "弊邑帖",
+  "dynasty": "宋遼金",
+  "author": "米芾",
+  "year": -1,
+  "calligraphy_type": "其他",
+  "source": "Marvis per_stele 数据集 (id=403)",
+  "editor": "marvis-import-v2",
+  "release_date": "2024-12-01",
+  "description": "类型：墨迹（尺牍）。原始朝代：北宋。作者：米芾。三札卷之一。此帖与《伯充帖》内容高度相似，可能是不同版本。",
+  "content": "[真实性待考] 与知县帖/丹徒帖关联，学术界对真伪无统一结论，释文待考。original字段已清空，需权威来源核实后方可恢复。",
+  "original_text": "",
+  "translation": "[真实性待考] 与知县帖/丹徒帖关联，学术界对真伪无统一结论，释文待考。original字段已清空，需权威来源核实后方可恢复。",
+  "note": "三札卷之一。此帖与《伯充帖》内容高度相似，可能是不同版本。",
+  "raw_type": "墨迹（尺牍）",
+  "raw_dynasty": "北宋",
+  "marvis_id": 403
+}
