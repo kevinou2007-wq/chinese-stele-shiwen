@@ -21,15 +21,16 @@ chinese-stele-shiwen/
 ├── .gitignore
 ├── data/
 │   ├── schema.json        ← JSON Schema 规范（字段定义）
-│   └── stele/             ← 碑帖数据目录
-│       ├── qin_han/       ← 秦汉
-│       ├── wei_jin_nanbei/← 魏晋南北朝
-│       ├── sui_tang/      ← 隋唐五代
-│       ├── song_liao_jin/ ← 宋辽金
-│       ├── yuan_ming_qing/← 元明清
-│       └── modern/        ← 近现代
-├── scripts/
-│   └── validate.py        ← 数据校验脚本
+│   └── stele/             ← 结构化数据（按朝代分目录，每碑一 JSON）
+│       ├── qin_han/       ← 秦汉（66）
+│       ├── wei_jin_nanbei/← 魏晋南北朝（115）
+│       ├── sui_tang/      ← 隋唐五代（90）
+│       ├── song_liao_jin/ ← 宋辽金（111）
+│       ├── yuan_ming_qing/← 元明清（100）
+│       └── modern/        ← 近现代（0）
+├── 释文/                   ← 按朝代整理的碑帖释文可读文档（Markdown，15 个朝代 + 总录索引）
+├── reports/               ← 数据质量报告（改进 / 全量核对 / 比对与重建）
+├── scripts/               ← 转换与校验脚本（import_per_stele.py / validate.py 等）
 └── docs/                  ← 内部设计文档
 ```
 
@@ -38,7 +39,7 @@ chinese-stele-shiwen/
 ### Shell：直接读取
 
 ```bash
-cat data/stele/sui_tang/duo_bao_ta_bei.json | jq .content
+cat data/stele/sui_tang/per_唐-颜真卿-多宝塔碑.json | jq .content
 ```
 
 ### JavaScript / Node
@@ -50,7 +51,7 @@ git clone https://github.com/you/chinese-stele-shiwen.git
 ```
 
 ```js
-import stele from "./data/stele/sui_tang/duo_bao_ta_bei.json";
+import stele from "./data/stele/sui_tang/per_唐-颜真卿-多宝塔碑.json";
 console.log(stele.content);
 ```
 
@@ -59,7 +60,7 @@ console.log(stele.content);
 ```python
 import json, pathlib
 
-f = pathlib.Path("data/stele/sui_tang/duo_bao_ta_bei.json").read_text(encoding="utf-8")
+f = pathlib.Path("data/stele/sui_tang/per_唐-颜真卿-多宝塔碑.json").read_text(encoding="utf-8")
 stele = json.loads(f)
 print(stele["content"])
 ```
@@ -121,15 +122,24 @@ python scripts/validate.py
 
 | 朝代 | 文件数 |
 | --- | --- |
-| 秦汉 | 58 |
-| 魏晋南北朝 | 113 |
-| 隋唐五代 | 76 |
-| 宋辽金 | 149 |
-| 元明清 | 88 |
+| 秦汉 | 66 |
+| 魏晋南北朝 | 115 |
+| 隋唐五代 | 90 |
+| 宋辽金 | 111 |
+| 元明清 | 100 |
 | 近现代 | 0 |
-| **合计** | **484** |
+| **合计** | **482** |
 
 数据来源于 Marvis 碑帖释文数据集（per_stele 直读模式），按本仓库 schema 整理。
+
+## 释文文档与质量报告
+
+除结构化 JSON 数据外，仓库另提供两类可读成果（与 `data/stele/` 同源，便于检索与阅读）：
+
+- **`释文/`** — 按 15 个细分朝代整理的碑帖释文文档（西周 / 先秦 / 秦 / 两汉 / 三国 / 两晋 / 南北朝 / 隋 / 唐 / 五代 / 北宋 / 南宋 / 元 / 明 / 清），每件含原文、译文与考释备注；另含 `碑帖释文总录索引.md`（全 482 件目录）。
+- **报告**见 [`reports/`](reports/)：`改进报告.md`、`全量核对报告.md`、`比对与重建报告.md`，记录数据订正、全量核对与比对重建过程。
+
+> 释文均经权威来源（古诗文网、《金石萃编》、《全唐文》、故宫与各地碑林资料等）核对并修正；备注中带有「[核查修正·…]」标记的条目为已据权威本订正者。
 
 ## 数据来源与版权说明
 
